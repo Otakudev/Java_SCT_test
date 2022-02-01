@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/FirstTest">
+        <classes>
+            <class name="md.foodhouse.FirstClass">
+                <methods>
+                    <include name="FirstTest"/>
+                </methods>
+            </class>
+            <class name="md.foodhouse.SecondClass">
+                <methods>
+                    <include name="SecondTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
